@@ -6,20 +6,8 @@ fs = require 'fs'
 
 usage = """
 
-  usage: wintersmith preview [options]
-
-  options:
-
-    -p, --port [port]             port to run server on (defaults to 8080)
-    -d, --domain [domain]         host to run server on (defaults to localhost)
-    #{ commonUsage }
-
-    all options can also be set in the config file
-
-  examples:
-
-    preview using a config file (assuming config.json is found in working directory):
-    $ wintersmith preview
+  usage: wintersmith post <post-name>  
+  <article-title>
 
 """
 
